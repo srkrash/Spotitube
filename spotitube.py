@@ -1,7 +1,5 @@
-from pytube import YouTube, Search
+from pytubefix import YouTube, Search, Stream
 import apikeys
-import pytube
-import pytube.streams
 import requests
 from deepmerge import always_merger
 import PySimpleGUI as sg
@@ -156,12 +154,12 @@ def search_and_download(index: int, search_value: str, path: str, artist: str, t
         None
     """
     # Search for the YouTube video corresponding to the given name
-    pesquisa: Search = Search(search_value)
+    pesquisa: Search = Search(search_value, 'WEB')
 
     try:
         # Get the first result from the search and download the audio
-        video: YouTube = pesquisa.results[0]
-        audio: pytube.Stream = video.streams.get_audio_only()
+        video: YouTube = pesquisa.videos[0]
+        audio: Stream = video.streams.get_audio_only()
         audio.download(
             output_path=path,
             filename_prefix=f'{index+1} - ',
