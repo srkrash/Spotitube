@@ -3,7 +3,7 @@
 <br>
 <p>
 <img alt="Python ver." src="https://img.shields.io/badge/python%20-%203.14-%20green?logo=python">
-<img alt="Pytube ver." src="https://img.shields.io/badge/pytube-15.0.0-blue">
+<img alt="Pytubefix ver." src="https://img.shields.io/badge/pytubefix-8.12.0-blue">
 <img alt="PySimpleGUI ver." src="https://img.shields.io/badge/PySimpleGUI-4.60.5-blue">
 </p>
 SpotiTube é uma aplicação simples que recebe as informações de caminho para salvamento e o link da playlist do Spotify. A aplicação consulta as músicas da playlist no Youtube e é feito o download do primeiro resultado apresentado com formato .mp3.
@@ -38,12 +38,12 @@ pyinstaller "spotitube.py" -F -i "spotitube.ico" -n SpotiTube --windowed
 ## Dependências
 
 
--> <a href="https://pypi.org/project/pytube/">Pytube
+-> <a href="https://pypi.org/project/pytubefix/">Pytubefix
 </a>
 <br>
 
 ```sh
-pip install pytube
+pip install pytubefix
 ```
 
 
