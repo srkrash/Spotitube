@@ -16,11 +16,6 @@ Com o python instalado, apenas execute o arquivo spotitube.py:
 python3 spotitube.py
 ```
 
-Caso queira criar um executável, utilize o <a href="https://pypi.org/project/pyinstaller/">PyInstaller</a> e o comando:
-```sh
-pyinstaller "spotitube.py" -F -i "spotitube.ico" -n SpotiTube --windowed
-```
-
 ## Exemplo de utilização
 
 1. Selecione o diretório que será salvo os arquivos, digitando ou clicando no botão Browse.<br><br>
@@ -61,6 +56,8 @@ pip install PySimpleGUI
 ```sh
 pip install deepmerge
 ```
+
+-> <a href="https://nodejs.org/pt">Node JS - Necessário para geração do PoToken
 
 <p align="center">
   <img alt = "GitHub language count" src="https://img.shields.io/github/languages/count/srkrash/spotitube">

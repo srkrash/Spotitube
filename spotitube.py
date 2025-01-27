@@ -304,6 +304,3 @@ def reset_window(window: sg.Window) -> None:
 
 if __name__ == '__main__':
     main()
-
-
-# pyinstaller "spotitube.py" -F -i "data/icon.ico" -n SpotiTube --windowed
