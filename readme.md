@@ -1,5 +1,6 @@
-# 🎵 SpotiTube 🎵
+# DESCONTINUADO - 🎵 SpotiTube 🎵
 > Aplicação que consulta as músicas de uma playlist do Spotify no YouTube e faz o download.
+> 
 <br>
 <p>
 <img alt="Python ver." src="https://img.shields.io/badge/python%20-%203.14-%20green?logo=python">
